@@ -67,5 +67,5 @@ Here I'll describe some of the relevant functions found in the repository.
 	- Will be used in the decoding to determine which indices are combined with each other.
 - full_dec_order.m
 	- A test for the other functions that shows the decoding order and the combined indices.
-	- align_incompatible.m
-		- The encoder for the SD algorithm, given the message u, incompatible indices at each recursion, the encoding orders at each recursion, the block size and the number of recursions, it outputs the aligned message u that can then be put through the polar encoder.
+- align_incompatible.m
+	- The encoder for the SD algorithm, given the message u, incompatible indices at each recursion, the encoding orders at each recursion, the block size and the number of recursions, it outputs the aligned message u that can then be put through the polar encoder.
