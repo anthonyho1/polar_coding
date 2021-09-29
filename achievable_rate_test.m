@@ -18,7 +18,7 @@ Rm = 1; %BPSK
 % SNR = ebn0 + 10*log10(Rc*Rm) + 10*log10(2);
 % SNR_num = 10.^(SNR/10);
 % g = 0.3; % interference strength
-frames = 50;
+frames = 100;
 EbN0_dB = 3;
 
 EbN0 = 10^(EbN0_dB/10);
@@ -74,7 +74,7 @@ for l = 1:length(g_seq)
                 
             end
             
-            BER2(i,j,l) = errors_2 / (K_2 * frames);
+            BER2(i,j,l) = errors_2 / (K_2 * frames); % bit error rates for given rate1 and rate2, and interference g
             BER1(i,j,l) = errors_1 / (K_1 * frames);
 
         end    
@@ -94,7 +94,7 @@ for k = 1:length(g_seq)
             end
         end
     end
-    outer_idx = boundary(achievable_rates,0);
+    outer_idx = boundary(achievable_rates,1);
     
     plot(achievable_rates(outer_idx,1),achievable_rates(outer_idx,2), 'LineStyle', 'none', 'Marker', markers{k}, 'Color', colors{k});
 end
