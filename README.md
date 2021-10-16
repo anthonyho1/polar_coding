@@ -23,7 +23,7 @@ Here is a diagram of the polar encoding scheme:
 | ------------- | ------------- |
 | <img src="polarenc_scheme_U.png" alt="polarenc_scheme_U" width="300"/> | <img src="polarenc_scheme_V.png" alt="polarenc_scheme_V" width="200"/>  |
 
-From the images, the raw messages come in from the right during encoding. The blue "R" blocks are the rearranging operations done so that decoding order can be successively deocded. The red lines are type II indices and the blue lines are type III indices. The ordered blocks on the right side are the inputs into the polar encoders. We see that at each recursion, we have an aligning step where we align the incompatible indices and a rearranging step. The rearranging of the indices is done as to preserve a successive decoding order. This means that when encoding, this encoding order is reversed from the decoding order. 
+From the images, the raw messages come in from the left during encoding. The blue "R" blocks are the rearranging operations done so that decoding order can be successively deocded. The red lines are type II indices and the blue lines are type III indices. The ordered blocks on the right side are the inputs into the polar encoders. We see that at each recursion, we have an aligning step where we align the incompatible indices and a rearranging step. The rearranging of the indices is done as to preserve a successive decoding order. This means that when encoding, this encoding order is reversed from the decoding order. 
 
 More details can be found in the paper previously linked in the introduction.
 
