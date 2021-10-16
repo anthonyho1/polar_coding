@@ -31,7 +31,7 @@ More details can be found in the paper previously linked in the introduction.
 
 The current progress of the project has a few features already implemented, and some yet to be implemented. 
 
-First, two different polar code construction algorithms have been implemented: one using Bhattacharrya parameters and another presented in *[How to Construct Polar Codes](https://arxiv.org/pdf/1105.6164.pdf)* by Ido Tal and Alexander Vardy. The Tal and Vardy aglorithm is based on the implementation by YuYongRun *[Here](https://github.com/YuYongRun/PolarCodes-Encoding-Decoding-Construction)*.
+First, two different polar code construction algorithms have been implemented: one using Bhattacharrya parameters and another presented in *[How to Construct Polar Codes](https://arxiv.org/pdf/1105.6164.pdf)* by Ido Tal and Alexander Vardy. The Tal and Vardy aglorithm is based on the implementation by YuYongRun *[here](https://github.com/YuYongRun/PolarCodes-Encoding-Decoding-Construction)*.
 
 Second, scripts to run simulations for both point-to-point and two-user interference channels.
 
